@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url("car.gif");
+            background-position: center;
+            background-size: cover;
+        }
+        
+        #canvas1 {
+            border-width: 10px;
+            background-color: white;
+            border-style: ridge;
+        }
+        
+        h1 {
+            color: rgb(255, 255, 255);
+        }
+        
+        h3 {
+            color: yellow !important;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Racing</title>
+</head>
+
+<body onload="add()">
+    <center>
+        <h1>Car Racing </h1>
+        <h2>Game Status: <span id="score"></span> </h2>
+        <canvas width="800" height="600" id="canvas1"> </canvas>
+        <h3>
+            <b>NOTE : </b>
+            <br> <br> 1. IF Car IS NOT VISIBLE PRESS ANY ARROW KEY
+            <br> <br>2.To move orange car presss any arrow key.
+            <br> <br>3.To move white car- Press 'a' key to move it left, 's' key to move down,<br> <br> 'd' key to move right and'w' key to move up.
+            <br> <br> 4.To restart the game refresh the page.
+
+
+        </h3>
+
+
+    </center>
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
